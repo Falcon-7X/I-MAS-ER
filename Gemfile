@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# source 'https://gems.ruby-china.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -36,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 # for gems line follow:
 gem 'bootstrap-sass'
+gem 'devise'
 # end here
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
