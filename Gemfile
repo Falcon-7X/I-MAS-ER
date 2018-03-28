@@ -63,5 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'pg', '~> 1.0'
 end
-
+# for potential security vulnerabilities
 gem 'bundle', '~> 0.0.1'
+gem 'nokogiri', '~> 1.8.1'
+gem 'loofah', '~> 2.1.1'

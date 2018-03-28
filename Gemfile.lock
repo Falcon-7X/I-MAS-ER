@@ -191,6 +191,8 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  loofah (~> 2.1.1)
+  nokogiri (~> 1.8.1)
   pg (~> 1.0)
   puma (~> 3.0)
   rails (~> 5.0.6)
