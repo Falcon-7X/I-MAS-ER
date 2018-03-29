@@ -47,6 +47,7 @@ group :development, :test do
   #for aliyun
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
+  gem 'rspec-rails'
 end
 
 group :development do
